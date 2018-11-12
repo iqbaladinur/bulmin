@@ -1,9 +1,21 @@
 /* import bulmin variable */
-@import "./bulmin/_variable";
+@import "bulmin/_variable";
+/* import components style */
+@import "bulmin/_utility";
+@import "bulmin/_navbar";
+@import "bulmin/_badge";
+@import "bulmin/_sidebar";
 /* import bulma */
-@import "./_bulma";
+@import "_bulma";
+
+.light-mode{
+    background-color: $light-background;
+    color: $light-color-font;
+}
+.dark-mode{
+    background-color: $dark-background;
+    color: $dark-color-font;
+}
 body{
     font: $base-font;
-    background: $base-background-color;
-    color: $base-font-color;
 }

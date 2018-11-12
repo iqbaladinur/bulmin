@@ -3,10 +3,11 @@ const sass = require("gulp-sass");
 const minify = require("gulp-csso");
 const concat = require("gulp-concat");
 const sourcemaps = require('gulp-sourcemaps');
-
+const wait = require('gulp-wait');
 gulp.task('css', function () {
-    return gulp.src('src/scss/**/*.scss')
-        .pipe(sass())
+    return gulp.src('src/scss/*.scss')
+        .pipe(wait(1500))
+        .pipe(sass().on('error', sass.logError))
         .pipe(minify())
         .pipe(gulp.dest('build/css'));
 });

@@ -1,0 +1,26 @@
+.light-mode{
+    .sidebar{
+        position: fixed;
+        width: 278px;
+        height: 100%;
+        .sidebar-menu{
+            height: 100%;
+            overflow-x: scroll;
+            background-color: $light-sidebar;
+            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144); 
+        }
+    }
+}
+.dark-mode{
+    .sidebar{
+        position: fixed;
+        width: 278px;
+        height: 100%;
+        .sidebar-menu{
+            height: 100%;
+            overflow-x: scroll;
+            background-color: $dark-sidebar;
+            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144); 
+        }
+    }
+}

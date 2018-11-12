@@ -1,0 +1,75 @@
+@import "_dark_theme_variable";
+@import "_light_theme_variable";
+
+$navbar-background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
+
+.light-mode{
+    .navbar-style{
+        background-image: $navbar-background-image;
+        font-weight: bold;
+        .navbar-item{
+            color: #ffffff;
+            &:hover, &:focus, &active{
+                background-color: rgba(0, 0, 0, 0.089);
+            }
+            .navbar-dropdown{
+                .navbar-item{
+                    color: gray;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.089);
+                    }
+                }
+            }
+            .navbar-link{
+                color: #ffffff;
+                &:hover, &:focus, &active{
+                    background-color: rgba(0, 0, 0, 0.089);
+                }
+            }
+        }
+        .navbar-item.has-dropdown:hover .navbar-link{
+            background-color: rgba(0, 0, 0, 0.089);
+        }
+        .navbar-link:not(.is-arrowless)::after{
+            border-color: #ffffff;
+        }
+        .navbar-burger{
+            color: #ffffff;
+        }
+    }
+}
+.dark-mode{
+    .navbar-style{
+        background-image: $navbar-background-image;
+        font-weight: bold;
+        .navbar-item{
+            color: #ffffff;
+            &:hover, &:focus, &active{
+                background-color: rgba(0, 0, 0, 0.089);
+            }
+            .navbar-dropdown{
+                .navbar-item{
+                    color: gray;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.089);
+                    }
+                }
+            }
+            .navbar-link{
+                color: #ffffff;
+                &:hover, &:focus, &active{
+                    background-color: rgba(0, 0, 0, 0.089);
+                }
+            }
+        }
+        .navbar-item.has-dropdown:hover .navbar-link{
+            background-color: rgba(0, 0, 0, 0.089);
+        }
+        .navbar-link:not(.is-arrowless)::after{
+            border-color: #ffffff;
+        }
+        .navbar-burger{
+            color: $dark-color-font;
+        }
+    }
+}
