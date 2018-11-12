@@ -2,3 +2,14 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.has-list-child{
+    &:hover a ~ ul, &.is-active a ~ ul{
+        display:block;
+    }
+    ul{
+        display: none;
+        &:hover{
+            display: block;
+        }
+    }
+}

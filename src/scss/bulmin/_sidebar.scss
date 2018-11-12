@@ -51,7 +51,7 @@
             position: relative;
             overflow-x: scroll;
             background-color: $dark-sidebar;
-            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144);
+            box-shadow: none;
             padding: 10px;
             .menu{
                 margin-bottom: 50px;
@@ -79,5 +79,8 @@
     }
     .section{
         padding: 1.5rem;
+        .container{
+            margin: 0px;
+        }
     }
 }
