@@ -3,11 +3,33 @@
         position: fixed;
         width: 278px;
         height: 100%;
+        transition: all .3s ease-out;
+        z-index: 2;
+        @media screen and (max-width:1087px){
+            left: -278px;
+            &.active{
+                left: 0;
+            }
+        }
         .sidebar-menu{
             height: 100%;
+            position: relative;
             overflow-x: scroll;
             background-color: $light-sidebar;
-            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144); 
+            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144);
+            padding: 10px;
+            .menu{
+                margin-bottom: 50px;
+                @media screen and (max-width:1087px){
+                    margin-bottom: 75px;
+                }
+                .menu-list a {
+                    color: $light-color-font;
+                }
+                .menu-label{
+                    color: $light-color-font;
+                }
+            } 
         }
     }
 }
@@ -16,11 +38,46 @@
         position: fixed;
         width: 278px;
         height: 100%;
+        transition: all .3s ease-out;
+        z-index: 2;
+        @media screen and (max-width:1087px){
+            left: -278px;
+            &.active{
+                left: 0;
+            }
+        }
         .sidebar-menu{
             height: 100%;
+            position: relative;
             overflow-x: scroll;
             background-color: $dark-sidebar;
-            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144); 
+            box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144);
+            padding: 10px;
+            .menu{
+                margin-bottom: 50px;
+                @media screen and (max-width:1087px){
+                    margin-bottom: 75px;
+                }
+                .menu-list a {
+                    color: $dark-color-font;
+                    &:hover{
+                        color: $light-color-font;
+                    }
+                }
+                .menu-label{
+                    color: $dark-color-font;
+                }
+            } 
         }
+    }
+}
+.main-content{
+    position: relative;
+    left: 278px;
+    @media screen and (max-width:1087px){
+        left: 0;
+    }
+    .section{
+        padding: 1.5rem;
     }
 }
