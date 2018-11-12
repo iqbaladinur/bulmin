@@ -1,0 +1,9 @@
+/* import bulmin variable */
+@import "./bulmin/_variable";
+/* import bulma */
+@import "./_bulma";
+body{
+    font: $base-font;
+    background: $base-background-color;
+    color: $base-font-color;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "bulmin",
+  "version": "1.0.0",
+  "description": "bulma admin template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css-watch": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqbaladinur/bulmin.git"
+  },
+  "keywords": [
+    "bulma",
+    "admin",
+    "template"
+  ],
+  "author": "iqbaladinur@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqbaladinur/bulmin/issues"
+  },
+  "homepage": "https://github.com/iqbaladinur/bulmin#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
