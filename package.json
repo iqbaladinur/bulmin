@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "php -S localhost:8080 -t build/",
-    "watch-build": "gulp"
+    "watch-build": "gulp",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",

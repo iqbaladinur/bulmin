@@ -23,5 +23,5 @@ gulp.task('js', function () {
 gulp.task('watch', function () {
     gulp.watch(["src/scss/**/*.scss", "src/js/**/*.js"], ["css", "js"]);
 })
-
+gulp.task('build', ["css", "js"]);
 gulp.task("default", ["watch"]);

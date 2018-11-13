@@ -8,8 +8,14 @@
     }
     ul{
         display: none;
+        border-left: 1px solid rgb(0, 174, 255) !important;
         &:hover{
             display: block;
+        }
+    }
+    &:hover a, &.is-active a{
+        & span:last-child {
+            transform: rotate(90deg);
         }
     }
 }

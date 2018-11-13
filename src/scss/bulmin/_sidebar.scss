@@ -18,6 +18,13 @@
             background-color: $light-sidebar;
             box-shadow: 1px 1px 5px rgba(87, 87, 87, 0.144);
             padding: 10px;
+            &::-webkit-scrollbar{
+                width: 0px;
+            }
+            &::-webkit-scrollbar-track-piece{
+                background-color: transparent;
+                -webkit-border-radius: 6px;
+            }
             .menu{
                 margin-bottom: 50px;
                 @media screen and (max-width:1087px){
