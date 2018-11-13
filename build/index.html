@@ -27,6 +27,25 @@
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a href="#" class="navbar-link is-arrowless">
                             <span class="icon is-medium">
+                                <i class="far fa-bell fa-lg"></i>
+                            </span>
+                            <span class="has-badge">
+                                <span class="badge">9999</span>
+                            </span>
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a href="#" class="dropdown-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">see all</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" class="navbar-link is-arrowless">
+                            <span class="icon is-medium">
                                 <i class="far fa-envelope fa-lg"></i>
                             </span>
                             <span>messages</span>
@@ -72,13 +91,10 @@
     </nav>
     <!-- end of navbar -->
     <!-- start of main wrapper -->
+    <!-- start of sidebar -->
     <div class="sidebar">
         <div class="sidebar-menu">
             <div class="menu">
-                <p class="menu-label">
-                    General
-                </p>
-                <hr class="dropdown-divider">
                 <ul class="menu-list">
                     <li>
                         <a>
@@ -90,30 +106,12 @@
                             </span>
                         </a>
                     </li>
-                    <li>
-                        <a>
-                            <span class="icon">
-                                <i class="fas fa-users"></i>
-                            </span>
-                            <span>
-                                Customers
-                            </span>
-                        </a>
-                    </li>
                 </ul>
                 <p class="menu-label">
-                    Administration
+                    templates
                 </p>
                 <hr class="dropdown-divider">
                 <ul class="menu-list">
-                    <li>
-                        <a>
-                            <span class="icon">
-                                <i class="fas fa-user-astronaut"></i>
-                            </span>
-                            <span>Team Settings</span>
-                        </a>
-                    </li>
                     <li class="has-list-child">
                         <a>
                             <span class="icon">
@@ -125,9 +123,8 @@
                             </span>
                         </a>
                         <ul>
-                            <li><a>Members</a></li>
-                            <li><a>Plugins</a></li>
-                            <li><a>Add a member</a></li>
+                            <li><a>Login</a></li>
+                            <li><a>Register</a></li>
                         </ul>
                     </li>
                     <li class="has-list-child is-active">
@@ -141,9 +138,7 @@
                             </span>
                         </a>
                         <ul>
-                            <li><a>Members</a></li>
-                            <li><a>Plugins</a></li>
-                            <li><a>Add a member</a></li>
+                            <li><a>Widget</a></li>
                         </ul>
                     </li>
                     <li><a>Invitations</a></li>
@@ -153,15 +148,140 @@
             </div>
         </div>
     </div>
+    <!-- end of sidebar -->
     <div class="main-content">
+        <div class="box is-radiusless is-marginless">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon is-small">
+                                <i class="fab fa-slack" aria-hidden="true"></i>
+                            </span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="is-active">
+                        <a href="#" aria-current="page">Breadcrumb</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <section class="section">
-            <div class="container">
-                hello
-            </div>
+           <div class="columns">
+                <div class="column">
+                    <div class="widget box">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    9999999
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                members online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-success has-text-white">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title has-text-white">
+                                <span>
+                                    +$10,000.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-warning">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    -$100.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash out
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-danger">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    1000
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                banned users
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-info">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    1 million
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="far fa-credit-card"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                transaction per day
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="box">
+                <div>
+                    <h1 class="title is-size-5">
+                        Traffic
+                        <button class="button is-info is-pulled-right is-rounded is-small">
+                            <span class="icon is-small">
+                                <i class="fas fa-cloud-download-alt"></i>
+                            </span>
+                            <span>
+                                Export
+                            </span>
+                        </button>
+                    </h1>
+                    <small class="subtitle is-size-7 has-text-grey">
+                       12 November 2018
+                    </small>
+                </div>
+                <hr>
+                <div id="chart" class="is-fullwidth">
+                    
+                </div>
+           </div>
         </section>
     </div>
     <!-- end of main wrapper -->
     <!-- script here -->
+    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
     <script src="./js/bulmin.min.js"></script>
 </body>
 </html>

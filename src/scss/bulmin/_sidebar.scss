@@ -1,12 +1,15 @@
+$sidebar-width: 230px;
+$sidebar-fontsize-label: 0.75rem;
+$sidebar-fontsize-list: 0.85rem;
 .light-mode{
     .sidebar{
         position: fixed;
-        width: 278px;
+        width: $sidebar-width;
         height: 100%;
         transition: all .3s ease-out;
         z-index: 2;
         @media screen and (max-width:1087px){
-            left: -278px;
+            left: -$sidebar-width;
             &.active{
                 left: 0;
             }
@@ -24,6 +27,7 @@
             &::-webkit-scrollbar-track-piece{
                 background-color: transparent;
                 -webkit-border-radius: 6px;
+                border-radius: 6px;
             }
             .menu{
                 margin-bottom: 50px;
@@ -32,9 +36,11 @@
                 }
                 .menu-list a {
                     color: $light-color-font;
+                    font-size: $sidebar-fontsize-list;
                 }
                 .menu-label{
                     color: $light-color-font;
+                    font-size: $sidebar-fontsize-label;
                 }
             } 
         }
@@ -43,12 +49,12 @@
 .dark-mode{
     .sidebar{
         position: fixed;
-        width: 278px;
+        width: $sidebar-width;
         height: 100%;
         transition: all .3s ease-out;
         z-index: 2;
         @media screen and (max-width:1087px){
-            left: -278px;
+            left: -$sidebar-width;
             &.active{
                 left: 0;
             }
@@ -67,27 +73,26 @@
                 }
                 .menu-list a {
                     color: $dark-color-font;
+                    font-size: $sidebar-fontsize-list;
                     &:hover{
                         color: $light-color-font;
                     }
                 }
                 .menu-label{
                     color: $dark-color-font;
+                     font-size: $sidebar-fontsize-label;
                 }
             } 
         }
     }
 }
 .main-content{
-    position: relative;
-    left: 278px;
+    position: unset;
+    margin-left:$sidebar-width;
     @media screen and (max-width:1087px){
-        left: 0;
+        margin-left: 0;
     }
     .section{
         padding: 1.5rem;
-        .container{
-            margin: 0px;
-        }
     }
 }

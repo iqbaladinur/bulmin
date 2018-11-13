@@ -5,6 +5,7 @@
 @import "bulmin/_navbar";
 @import "bulmin/_badge";
 @import "bulmin/_sidebar";
+@import "bulmin/_widget";
 /* import bulma */
 @import "_bulma";
 
@@ -20,5 +21,20 @@
     body{
         font: $base-font;
         color: $dark-color-font;
+    }
+    .box{
+        background-color: $dark-background; 
+        .breadcrumb{
+            ul{
+                li{
+                    a{
+                        color: $dark-color-font;
+                        &:hover{
+                            color: rgb(184, 181, 181);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,23 @@
+.widget{
+     color: #4a4a4a;
+    .widget-header{
+        padding: 10px 0px;
+        height: 50px;
+        a.widget-title, .widget-title{
+            width: 100%;
+            color: #4a4a4a;
+            font-weight: bold;
+            span{
+                &.widget-icon{
+                    float: right;
+                }
+            }
+        }
+        .widget-subtitle{
+            font-size: 0.75rem;
+        }
+    }
+    .widget-body{
+        
+    }
+}

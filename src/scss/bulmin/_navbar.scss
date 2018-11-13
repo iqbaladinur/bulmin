@@ -1,9 +1,9 @@
 $navbar-background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
-
+$navbar-font-size:0.75rem;
 .light-mode{
     .navbar-style{
         background-image: $navbar-background-image;
-        font-weight: bold;
+        font-size: $navbar-font-size;
         .navbar-item{
             color: #ffffff;
             &:hover, &:focus, &active{
@@ -38,7 +38,7 @@ $navbar-background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
 .dark-mode{
     .navbar-style{
         background-image: $navbar-background-image;
-        font-weight: bold;
+        font-size: $navbar-font-size;
         .navbar-item{
             color: #ffffff;
             &:hover, &:focus, &active{
