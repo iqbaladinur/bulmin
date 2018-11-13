@@ -24,6 +24,10 @@
     }
     .box{
         background-color: $dark-sidebar; 
+        color: $dark-color-font;
+        .title{
+            color: $dark-color-font;    
+        }
         .breadcrumb{
             ul{
                 li{
@@ -35,6 +39,18 @@
                     }
                 }
             }
+        }
+    }
+    .table{
+        background-color: unset;
+        color: $dark-color-font;
+        th{
+            color: $dark-color-font;
+        }
+        &.is-striped tbody tr:not(.is-selected):nth-child(even), 
+        &.is-striped.is-hoverable tbody tr:hover,
+        &.is-striped.is-hoverable tbody tr:not(.is-selected):nth-child(even){
+            background-color: $dark-background;
         }
     }
 }
