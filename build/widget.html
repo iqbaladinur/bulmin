@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top light-mode">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulmin - Bulma Admin Templates</title>
+    <link rel="stylesheet" href="./css/bulmin.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+</head>
+
+<body>
+    <!-- begin of navbar -->
+    <nav class="navbar is-transparent navbar-style is-capitalized is-fixed-top">
+        <div class="container is-fluid">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item">
+                    <img src="./asset/logo.png" alt="bulmin logo">
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="sidebarNav">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" class="navbar-link is-arrowless">
+                            <span class="icon is-medium">
+                                <i class="far fa-bell fa-lg"></i>
+                            </span>
+                            <span class="has-badge">
+                                <span class="badge">9999</span>
+                            </span>
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a href="#" class="dropdown-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">see all</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" class="navbar-link is-arrowless">
+                            <span class="icon is-medium">
+                                <i class="far fa-envelope fa-lg"></i>
+                            </span>
+                            <span>messages</span>
+                            <span class="has-badge">
+                                <span class="badge">9999</span>
+                            </span>
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a href="#" class="dropdown-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <a href="#" class="navbar-item">@from: Some One</a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">see all</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" class="navbar-link is-arrowless">
+                            <img src="./asset/profile.jpg" class="is-fit-image-rounded">
+                        </a>
+                        <div class="navbar-dropdown is-boxed is-right">
+                            <div class="dropdown-item is-uppercase">
+                                <p>User Setting</p>
+                            </div>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">profile</a>
+                            <a href="#" class="navbar-item">biodata</a>
+                            <hr class="dropdown-divider">
+                            <div class="dropdown-item is-uppercase">
+                                <p>account Setting</p>
+                            </div>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">change password</a>
+                            <a href="#" class="navbar-item">verify account</a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="navbar-item">logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- start of main wrapper -->
+    <!-- start of sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <div class="menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="/">
+                            <span class="icon">
+                                <i class="fab fa-slack"></i>
+                            </span>
+                            <span>
+                                Dashboard
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="menu-label">
+                    templates
+                </p>
+                <hr class="dropdown-divider">
+                <ul class="menu-list">
+                    <li class="has-list-child">
+                        <a>
+                            <span class="icon">
+                                <i class="fas fa-list-ul"></i>
+                            </span>
+                            <span>Pages</span>
+                            <span class="icon is-pulled-right">
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <ul>
+                            <li><a>Login</a></li>
+                            <li><a>Register</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-list-child is-active">
+                        <a>
+                            <span class="icon">
+                                <i class="fas fa-list-ul"></i>
+                            </span>
+                            <span>Components</span>
+                            <span class="icon is-pulled-right">
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="/widget.html" class="is-active">Widget</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of sidebar -->
+    <div class="main-content">
+        <div class="box is-radiusless is-marginless force-black">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li>
+                        <a href="/">
+                            <span class="icon is-small">
+                                <i class="fab fa-slack" aria-hidden="true"></i>
+                            </span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="is-active">
+                        <a href="/widget.html" aria-current="page">widget</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="section">
+            <!-- widget full -->
+            <h1 class="title is-size-4 is-uppercase">Widget with color helper</h1>
+            <div class="columns">
+                <div class="column">
+                    <div class="widget box">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    9999999
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                members online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-success has-text-white">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title has-text-white">
+                                <span>
+                                    +$10,000.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-warning">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    -$100.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash out
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box has-background-danger">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    1000
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                banned users
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- widget full -->
+            <!-- widget -->
+            <h1 class="title is-size-4 is-uppercase">Widget with notification class</h1>
+            <div class="columns">
+                <div class="column">
+                    <div class="widget box notification is-white">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    9999999
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                members online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box notification is-primary">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title has-text-white">
+                                <span>
+                                    +$10,000.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box notification is-warning">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    -$100.00
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                cash out
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box notification is-danger">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    1000
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="fas fa-users"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                banned users
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="widget box notification is-info">
+                        <div class="widget-header">
+                            <a href="#" class="widget-title">
+                                <span>
+                                    1 million
+                                </span>
+                                <span class="widget-icon">
+                                    <i class="far fa-credit-card"></i>
+                                </span>
+                            </a>
+                            <p class="widget-subtitle">
+                                transaction per day
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- widget -->
+            <!-- other widget -->
+            <div class="columns">
+                <div class="column">
+                    <div class="box notification is-primary">
+                        <div class="heading">Top Seller Total</div>
+                        <div class="title">56,950</div>
+                        <div class="level">
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Sales $</div>
+                                    <div class="title is-5">250K</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Overall $</div>
+                                    <div class="title is-5">750K</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Sales %</div>
+                                    <div class="title is-5">25%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box notification is-warning">
+                        <div class="heading">Revenue / Expenses</div>
+                        <div class="title">55% / 45%</div>
+                        <div class="level">
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Rev Prod $</div>
+                                    <div class="title is-5">30%</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Rev Serv $</div>
+                                    <div class="title is-5">25%</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Exp %</div>
+                                    <div class="title is-5">45%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box notification is-info">
+                        <div class="heading">Feedback Activity</div>
+                        <div class="title">78% ↑</div>
+                        <div class="level">
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Pos</div>
+                                    <div class="title is-5">1560</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Neg</div>
+                                    <div class="title is-5">368</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Pos/Neg %</div>
+                                    <div class="title is-5">77% / 23%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box notification is-danger">
+                        <div class="heading">Orders / Returns</div>
+                        <div class="title">75% / 25%</div>
+                        <div class="level">
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Orders $</div>
+                                    <div class="title is-5">425K</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Returns $</div>
+                                    <div class="title is-5">106K</div>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <div class="">
+                                    <div class="heading">Success %</div>
+                                    <div class="title is-5">+ 28,5%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- other widget -->
+            <!-- social widget -->
+            <div class="box notification is-warning">
+                <nav class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">
+                                <span class="icon">
+                                    <i class="fab fa-facebook"></i>
+                                </span>
+                                <span>
+                                    Friends
+                                </span>
+                            </p>
+                            <p class="title">3,456</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">
+                                <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span>
+                                <span>
+                                    followers
+                                </span>
+                            </p>
+                            <p class="title">123</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">
+                                <span class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                                <span>
+                                    followers
+                                </span>
+                            </p>
+                            <p class="title">456K</p>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- social widget -->
+        </section>
+        <footer class="footer force-black">
+            <div class="content has-text-centered">
+                <p>
+                    <a href="https://github.com/iqbaladinur/bulmin" class="has-text-primary">
+                        <span class="icon">
+                            <i class="fab fa-github"></i>
+                        </span>
+                    </a>
+                    <br>
+                    <strong>Bulmin</strong> by <a href="https://github.com/iqbaladinur">Iqbal Adi N</a>.
+                    <br>
+                    The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- end of main wrapper -->
+    <!-- script here -->
+    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+    <script src="./js/bulmin.min.js"></script>
+</body>
+
+</html>

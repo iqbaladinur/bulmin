@@ -34,6 +34,10 @@ $sidebar-fontsize-list: 0.85rem;
                 @media screen and (max-width:1087px){
                     margin-bottom: 75px;
                 }
+                a.is-active{
+                    background-color: rgba(0, 0, 0, 0.116);
+                    color: $light-color-font !important;
+                }
                 .menu-list a {
                     color: $light-color-font;
                     font-size: $sidebar-fontsize-list;
@@ -70,6 +74,10 @@ $sidebar-fontsize-list: 0.85rem;
                 margin-bottom: 50px;
                 @media screen and (max-width:1087px){
                     margin-bottom: 75px;
+                }
+                a.is-active{
+                    background-color: rgba(0, 0, 0, 0.116);
+                    color: $dark-color-font !important;
                 }
                 .menu-list a {
                     color: $dark-color-font;

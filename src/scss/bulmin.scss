@@ -22,9 +22,17 @@
         font: $base-font;
         color: $dark-color-font;
     }
+    .footer{
+        &.force-black{
+            background-color: $dark-background; 
+            color: $dark-color-font;
+        }
+    }
     .box{
-        background-color: $dark-sidebar; 
-        color: $dark-color-font;
+        &.force-black{
+            background-color: $dark-sidebar; 
+            color: $dark-color-font;
+        }
         .title{
             color: $dark-color-font;    
         }
