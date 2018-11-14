@@ -29,10 +29,9 @@
     "@fortawesome/fontawesome-free": "^5.5.0",
     "bulma": "^0.7.2",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
     "gulp-wait": "0.0.2"
   }
 }
