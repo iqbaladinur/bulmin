@@ -27,5 +27,5 @@ gulp.task('js', function () {
 gulp.task('watch', function () {
     gulp.watch(["src/scss/**/*.scss", "src/js/**/*.js"], ["css-minified", "css", "js"]);
 })
-gulp.task('build', ["css", "js"]);
+gulp.task('build', ["css", "js", "css-minified"]);
 gulp.task("default", ["watch"]);
