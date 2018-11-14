@@ -1,8 +1,9 @@
-$navbar-background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
+$navbar-background-image-light: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
+$navbar-background-image-dark: linear-gradient(to right, #333338 0%, #171618 100%);
 $navbar-font-size:0.75rem;
 .light-mode{
     .navbar-style{
-        background-image: $navbar-background-image;
+        background-image: $navbar-background-image-light;
         font-size: $navbar-font-size;
         .navbar-item{
             color: #ffffff;
@@ -37,7 +38,7 @@ $navbar-font-size:0.75rem;
 }
 .dark-mode{
     .navbar-style{
-        background-image: $navbar-background-image;
+        background-image: $navbar-background-image-dark;
         font-size: $navbar-font-size;
         .navbar-item{
             color: #ffffff;

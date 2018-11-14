@@ -19,6 +19,10 @@
 .is-no-wrap {
   white-space: nowrap; }
 
+.is-force-black-dark-mode {
+  background-color: #2a2a2e;
+  color: #f0f0f1; }
+
 .light-mode .navbar-style {
   background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
   font-size: 0.75rem; }
@@ -42,7 +46,7 @@
     color: #ffffff; }
 
 .dark-mode .navbar-style {
-  background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
+  background-image: linear-gradient(to right, #333338 0%, #171618 100%);
   font-size: 0.75rem; }
   .dark-mode .navbar-style .navbar-item {
     color: #ffffff; }
@@ -6933,10 +6937,10 @@ label.panel-block {
   .dark-mode body {
     font: Helvetica, sans-serif;
     color: #f0f0f1; }
-  .dark-mode .footer.force-black {
+  .dark-mode .footer.is-force-black-dark-mode {
     background-color: #2a2a2e;
     color: #f0f0f1; }
-  .dark-mode .box.force-black {
+  .dark-mode .box.is-force-black-dark-mode {
     background-color: #333338;
     color: #f0f0f1; }
   .dark-mode .box .title {

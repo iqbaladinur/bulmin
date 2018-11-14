@@ -23,13 +23,13 @@
         color: $dark-color-font;
     }
     .footer{
-        &.force-black{
+        &.is-force-black-dark-mode{
             background-color: $dark-background; 
             color: $dark-color-font;
         }
     }
     .box{
-        &.force-black{
+        &.is-force-black-dark-mode{
             background-color: $dark-sidebar; 
             color: $dark-color-font;
         }
