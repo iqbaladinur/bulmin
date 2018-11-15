@@ -6,7 +6,7 @@
 Bulmin is free admin template based on bulma. 
 
 ## Screenshot
-![Screenshoot](https://raw.githubusercontent.com/iqbaladinur/bulmin/master/src/ss/ss1.png)
+![Screenshoot](https://raw.githubusercontent.com/iqbaladinur/bulmin/master/src/ss/ss0.png)
 
 ## Development
 + Install latest LTS version Nodejs in https://nodejs.org/en/download/
