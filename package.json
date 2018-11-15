@@ -4,7 +4,7 @@
   "description": "bulma admin template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Oke. I didn't want to write test unit :)\" && exit 1",
     "dev": "php -S localhost:8080 -t build/",
     "watch-build": "gulp",
     "build": "gulp build"
