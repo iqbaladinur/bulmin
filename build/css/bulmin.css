@@ -19,10 +19,6 @@
 .is-no-wrap {
   white-space: nowrap; }
 
-.is-force-black-dark-mode {
-  background-color: #2a2a2e;
-  color: #f0f0f1; }
-
 .light-mode .navbar-style {
   background-image: linear-gradient(to right, #46d4ff 0%, #a606d6 100%);
   font-size: 0.75rem; }
